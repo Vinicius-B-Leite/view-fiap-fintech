@@ -1,0 +1,39 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: "Inter", sans-serif;
+	color: var(--color-txt);
+}
+
+:root {
+	--color-bg: #232323;
+	--color-txt: #fff;
+	--color-dark-txt: #9c9c9c;
+
+	--color-contrast: #00ffb2;
+}
+
+.color-bg {
+	background-color: var(--color-bg);
+}
+.color-contrast {
+	color: var(--color-contrast);
+}
+.bg-contrast {
+	background-color: var(--color-contrast);
+}
+input {
+	outline: none;
+	border: 0px;
+}
+.right {
+	display: flex;
+	justify-content: center;
+	padding-top: 6rem;
+	width: 50%;
+	height: 100vh;
+	background-image: url(/assets/images/banner.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+}
